@@ -16,20 +16,6 @@ class TrainTableSeeder extends Seeder
      */
     public function run()
     {
-        // $train2 = new Train();
-
-        // $train2 -> azienda = 'prova';
-        // $train2 -> stazione_di_partenza = 'prova';
-        // $train2 -> stazione_di_arrivo = 'prova';
-        // $train2 -> orario_di_partenza = 'prova';
-        // $train2 -> orario_di_arrivo = 'prova';
-        // $train2 -> codice_treno = 'prova';
-        // $train2 -> numero_carrozze = 'prova';
-        // $train2 -> in_orario = 'prova';
-        // $train2 -> cancellato = 'prova';
-
-        // $train2 -> save();
-
         Train :: factory() -> count(40) -> create();
     }
 }
