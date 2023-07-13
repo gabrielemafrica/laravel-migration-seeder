@@ -26,6 +26,16 @@ return new class extends Migration
             $table -> boolean('in_orario') -> default(true);
             $table -> boolean('cancellato') -> default(false);
 
+            // $table -> string('azienda');
+            // $table -> string('stazione_di_partenza');
+            // $table -> string('stazione_di_arrivo');
+            // $table -> string('orario_di_partenza');
+            // $table -> string('orario_di_arrivo');
+            // $table -> string('codice_treno');
+            // $table -> string('numero_carrozze');
+            // $table -> string('in_orario');
+            // $table -> string('cancellato');
+
             $table->timestamps();
         });
     }
