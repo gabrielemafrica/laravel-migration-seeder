@@ -7,7 +7,7 @@
 @section('content')
     <main class="py-4">
         <div class="container">
-            <h1 class="text-center my-5">RIEPILOGO TRENI</h1>
+            <h1 class="text-center my-5">RIEPILOGO TRENI come il brunch</h1>
             <div class="table-container mb-5">
                 <table class="table">
                     <thead>
